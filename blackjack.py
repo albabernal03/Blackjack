@@ -21,7 +21,7 @@ chr(0x1f0ae): 10,
 print("Cartas: {}".format(" ".join(cartas.keys())))
 print("Puntos: {}".format(list(cartas.values())))
 
-# El print que añadimos ahora nos muestra la carta y el valor de la carta que aleatoriamente nos ha tocado
+# El print que añadimos ahora nos le las cartas de una forma ordenada con su valor al lado
 
 print("1\ Iteración estándar sobre un diccionario")
 for carta, valor in cartas.items():
@@ -32,4 +32,21 @@ for carta in sorted(cartas.keys()):
     print("la carta {} vale {}".format(carta, cartas[carta]))
 
 
+print("3\ Black Jack")
+lista_cartas = list(cartas)
 
+print("Ha seleccionado:", end=" ")
+carta = choice(lista_cartas)
+score = cartas[carta]
+print(carta, end=" ")
+carta = choice(lista_cartas)
+score += cartas[carta]
+print(carta, end=" ")
+print(" >>> su puntuación es de", score)
+
+main_banca = sample(lista_cartas, 2)
+score_banca = sum(cartas[carta] for carta in main_banca)
+print("La banca tiene: {} {}  >> su score es {}".format(main_banca[0], main_banca[1], score_banca))
+
+def comparacion ():
+    
