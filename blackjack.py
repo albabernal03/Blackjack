@@ -21,6 +21,15 @@ chr(0x1f0ae): 10,
 print("Cartas: {}".format(" ".join(cartas.keys())))
 print("Puntos: {}".format(list(cartas.values())))
 
+# El print que añadimos ahora nos muestra la carta y el valor de la carta que aleatoriamente nos ha tocado
+
+print("1\ Iteración estándar sobre un diccionario")
+for carta, valor in cartas.items():
+    print("la carta {} vale {}".format(carta, valor))
+
+print("2\ Iteración ordenada sobre un diccionario")
+for carta in sorted(cartas.keys()):
+    print("la carta {} vale {}".format(carta, cartas[carta]))
 
 
 
