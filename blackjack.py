@@ -16,3 +16,11 @@ chr(0x1f0ad): 10,
 chr(0x1f0ae): 10,
 }
 
+# Añado un print para que lea las cartas y la muestre por la terminal de salida 
+
+print("Cartas: {}".format(" ".join(cartas.keys())))
+print("Puntos: {}".format(list(cartas.values())))
+
+
+
+
