@@ -19,3 +19,8 @@ cartas = {
 listaCartas= list(cartas)
 
 print('.::BLACK JACK.::')
+print('Cartas del jugador')
+
+carta1= choice(listaCartas)
+puntuacion = cartas [carta1]
+print('Primera cartas:', carta1)
