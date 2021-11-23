@@ -31,4 +31,8 @@ print('Segunda carta:', carta2)
 
 print('Puntación total del jugador:', puntuacionJug )
 
+carta1 = choice(listaCartas)
+puntacionBanca = cartas[carta1]
+print('Primera carta:', carta1)
+
 
