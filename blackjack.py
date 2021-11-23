@@ -39,5 +39,7 @@ carta2 = choice(listaCartas)
 puntuacionBanca += cartas[carta2]
 print('Segunda carta:', carta2)
 
+print('Puntuación total de la banca:', puntuacionBanca)
+
 
 
