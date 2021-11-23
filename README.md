@@ -17,3 +17,7 @@ En esta tarea hemos resuleto el juego del Blackjack de una forma muy básica, ba
 
 *Sumar los valores de ambas cartas.
 
+
+EL DIAGRAMA DE FLUJO ES EL SIGUIENTE:
+
+
