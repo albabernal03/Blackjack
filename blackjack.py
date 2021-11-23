@@ -16,3 +16,6 @@ cartas = {
 'K': 10,
 }
 
+listaCartas= list(cartas)
+
+print('.::BLACK JACK.::')
