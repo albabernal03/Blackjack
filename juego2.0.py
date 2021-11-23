@@ -1,1 +1,0 @@
-for random import choice 
