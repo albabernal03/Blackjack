@@ -13,14 +13,14 @@ En esta tarea hemos resuleto el juego del Blackjack de una forma muy básica, ba
 
 *Agregar la puntuación de la carta seleccionada*
 
-*A continuación, la banca escoge dos cartas al azar*![DIAGRAMA DE FLUJO](https://user-images.githubusercontent.com/91721875/143091518-9ccc5cb9-6065-4b34-9874-08aaea1c0dc4.jpg)
-
+*A continuación, la banca escoge dos cartas al azar*
 
 *Sumar los valores de ambas cartas.*
 
 
 EL DIAGRAMA DE FLUJO ES EL SIGUIENTE:
 
+![DIAGRAMA DE FLUJO](https://user-images.githubusercontent.com/91721875/143091518-9ccc5cb9-6065-4b34-9874-08aaea1c0dc4.jpg)
 
 
 
